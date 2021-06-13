@@ -1,0 +1,214 @@
+/*-- **INFORMATION**
+The designs were created to the following widths:
+- Mobile: 375px
+- Desktop: 1440px
+--*/
+
+/*=============================================
+=     HEADER SECTION | ROOT & IMPORTS            =
+=============================================*/
+
+/*----------  START SUBSECTION | Google Fonts   ----------*/
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/*----------  START SUBSECTION | Global Variables   ----------*/
+:root {
+    /*-- Primary Colors --*/
+    --color-primary-orange      : hsl(31, 77%, 52%);
+    --color-primary-cyan        : hsl(184, 100%, 22%);
+    --color-primary-dark-cyan   : hsl(179, 100%, 13%);
+    /*-- Secondary Colors --*/
+    --color-secondary-gray-light: hsl(0, 0%, 95%);
+    --color-secondary-paragraph : hsla(0, 0%, 100%, 0.75);
+    /*-- Fonts Family --*/
+    --font-family-primary       : 'Lexend Deca', sans-serif;
+    --font-family-secondary     : 'Big Shoulders Display', cursive;
+    /*-- Fonts Size --*/
+    --font-size-text            : 1vw;
+    --font-size-titles          : 2.3vw;
+}
+
+/*============ FOOTER SECTION | ROOT & IMPORTS =========*/
+
+/*=============================================
+=             START SECTION | CODE           =
+=============================================*/
+*,
+*::before,
+*::after {
+    margin    : 0;
+    padding   : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background     : var(--color-secondary-gray-light);
+    width          : 100%;
+    height         : 100vh;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    overflow-x     : hidden;
+}
+
+
+.cards_container {
+    display  : flex;
+    flex-flow: row nowrap;
+    max-width: 55em;
+}
+
+.card_data-container {
+    padding        : 3rem;
+    color          : var(--color-secondary-paragraph);
+    display        : flex;
+    flex-flow      : column nowrap;
+    justify-content: space-between;
+}
+
+.card_data-container.bg-1 {
+    background           : var(--color-primary-orange);
+    border-radius        : 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    -moz-border-radius   : 10px 0 0 10px;
+    -ms-border-radius    : 10px 0 0 10px;
+    -o-border-radius     : 10px 0 0 10px;
+}
+
+.card_data-container.bg-2 {
+    background: var(--color-primary-cyan)
+}
+
+.card_data-container.bg-3 {
+    background           : var(--color-primary-dark-cyan);
+    border-radius        : 0 10px 10px 0;
+    -webkit-border-radius: 0 10px 10px 0;
+    -moz-border-radius   : 0 10px 10px 0;
+    -ms-border-radius    : 0 10px 10px 0;
+    -o-border-radius     : 0 10px 10px 0;
+}
+
+.card_data-container .card_data-icon {
+    margin-bottom: 2rem;
+}
+
+.card_data-container .card_data-icon img {
+    width    : 3.4rem;
+    max-width: 3.4rem;
+}
+
+.card_data-container .card_data-title {
+    margin-bottom : 2rem;
+    font-size     : var(--font-size-titles);
+    text-transform: uppercase;
+    font-family   : var(--font-family-secondary);
+    color         : var(--color-secondary-gray-light);
+}
+
+.card_data-container .card_data-text {
+    margin-bottom: 4rem;
+    font-size    : var(--font-size-text);
+    line-height  : 1.7rem;
+}
+
+.card_data-container .card_data-btn {
+    max-width            : 8.5rem;
+    padding              : .75rem 1rem;
+    background           : var(--color-secondary-gray-light);
+    border               : 2px transparent solid;
+    border-radius        : 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius   : 25px;
+    -ms-border-radius    : 25px;
+    -o-border-radius     : 25px;
+    font-weight          : 600;
+    cursor               : pointer;
+    transition           : all 390ms ease-in-out;
+    -webkit-transition   : all 390ms ease-in-out;
+    -moz-transition      : all 390ms ease-in-out;
+    -ms-transition       : all 390ms ease-in-out;
+    -o-transition        : all 390ms ease-in-out;
+}
+
+.card_data-container .card_data-btn.btn_1 {
+    color: var(--color-primary-orange);
+}
+
+.card_data-container .card_data-btn.btn_2 {
+    color: var(--color-primary-cyan);
+}
+
+.card_data-container .card_data-btn.btn_3 {
+    color: var(--color-primary-dark-cyan);
+}
+
+.card_data-container .card_data-btn:hover {
+    background: transparent;
+    border    : 2px var(--color-secondary-gray-light) solid;
+    color     : var(--color-secondary-gray-light);
+}
+
+/*=====  END OF SECTION CODE  ======*/
+
+/*=============================================
+=       START SECTION | MEDIA QUERY           =
+=============================================*/
+
+@media only screen and (max-width: 64em) {
+    .cards_container {
+        margin   : auto 4rem;
+        max-width: 50em;
+        padding  : 5rem 0rem;
+    }
+
+    .card_data-container .card_data-title {
+        font-size: 3vw;
+    }
+
+    .card_data-container .card_data-text {
+        font-size: 1.5vw;
+    }
+}
+
+@media only screen and (max-width: 48em) {
+    .cards_container {
+        display  : flex;
+        flex-flow: column nowrap;
+        max-width: 25rem;
+        min-width: 18rem;
+    }
+
+    .card_data-container .card_data-title {
+        font-size: 2.4rem;
+    }
+
+    .card_data-container .card_data-text {
+        font-size: .9rem;
+        margin-bottom: 1.4rem;
+    }
+
+    .card_data-container .card_data-btn {
+        font-size: .9rem;
+    } 
+
+    .card_data-container.bg-1 {
+        border-radius: 10px 10px 0 0;
+        -webkit-border-radius: 10px 10px 0 0;
+        -moz-border-radius: 10px 10px 0 0;
+        -ms-border-radius: 10px 10px 0 0;
+        -o-border-radius: 10px 10px 0 0;
+}
+
+    .card_data-container.bg-3 {
+        background: var(--color-primary-dark-cyan);
+        border-radius: 0 0 10px 10px;
+        -webkit-border-radius: 0 0 10px 10px;
+        -moz-border-radius: 0 0 10px 10px;
+        -ms-border-radius: 0 0 10px 10px;
+        -o-border-radius: 0 0 10px 10px;
+}
+}
+
+
+
+/*=====  END OF SECTION MEDIA QUERY  ======*/
