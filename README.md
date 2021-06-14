@@ -5,7 +5,7 @@ Description: Desktop First UI Challenge only HTML & CSS Advance(Flexbox, Respons
 ### Links
 
 - Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-3-Column-Preview-card-Component)
-- Live Site URL: [Live Site](https://your-live-site-url.com)
+- Live Site URL: [Live Site](https://toni-sys.github.io/Web-Desktop-First-3-Column-Preview-card-Component/)
 
 
 ## Author
