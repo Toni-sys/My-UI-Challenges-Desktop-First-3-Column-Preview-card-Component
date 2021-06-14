@@ -4,13 +4,13 @@ Description: Desktop First UI Challenge only HTML & CSS Advance(Flexbox, Respons
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-3-Column-Preview-card-Component)
+- Live Site URL: [Live Site](https://your-live-site-url.com)
 
 
 ## Author
 
 - Website - [Desarrollador en Agencia Jeemdev](https://www.jeemdev.com)
-- Behance - [Diseñador en Agencia Jeemdev] [https://www.behance.net/agencia_jeemdev]
+- Behance - [Diseñador en Agencia Jeemdev] [https://toni-sys.github.io/Web-Desktop-First-3-Column-Preview-card-Component/]
 - Instagram - [@_tony_hdz]
 - Git Hub - [@Tony-sys](https://github.com/Toni-sys)
