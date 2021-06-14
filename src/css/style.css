@@ -98,7 +98,7 @@ body {
 }
 
 .card_data-container .card_data-title {
-    margin-bottom : 2rem;
+    margin-bottom : 2.8rem;
     font-size     : var(--font-size-titles);
     text-transform: uppercase;
     font-family   : var(--font-family-secondary);
