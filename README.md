@@ -9,14 +9,8 @@
 
 ## Links
 
-🌐- Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-Profile-Card-Component-Main)
-🌐- Live Site URL: [Live Site](https://antoni-codes.github.io/Web-Desktop-First-Profile-Card-Component-Main/)
-
-
-### Links
-
-- Solution URL: [Repository](https://github.com/Toni-sys/Web-Desktop-First-3-Column-Preview-card-Component)
-- Live Site URL: [Live Site](https://antoni-codes.github.io/Web-Desktop-First-3-Column-Preview-card-Component/)
+🌐- Solution URL: [Repository](https://github.com/antoni-codes/Web-Desktop-First-3-Column-Preview-card-Component)
+🌐- Live Site URL: [Live Site](https://antoni-codes.github.io/Web-Desktop-First-3-Column-Preview-card-Component/)
 
 
 ## Author
